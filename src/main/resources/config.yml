@@ -1,0 +1,5 @@
+color-change-usage: "Usage /setcolor <color name>."
+color-change-success: "Your name color has been changed!"
+color-change-error: "Invalid color code!"
+command-from-console: "Only players can use this command!"
+
