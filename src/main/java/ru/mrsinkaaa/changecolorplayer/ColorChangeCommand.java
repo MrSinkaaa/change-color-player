@@ -10,8 +10,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.scoreboard.Scoreboard;
 import org.bukkit.scoreboard.ScoreboardManager;
 import org.bukkit.scoreboard.Team;
+import org.eclipse.sisu.Priority;
 import org.jetbrains.annotations.NotNull;
 
+@Priority(Integer.MAX_VALUE)
 public class ColorChangeCommand implements CommandExecutor {
 
     private final ChangeColorPlayer plugin = ChangeColorPlayer.getInstance();
